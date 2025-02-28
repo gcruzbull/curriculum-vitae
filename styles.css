@@ -61,6 +61,11 @@ h2 {
     margin-top: 50px;
     color: white;
 }
+
+.contact-info a:hover {
+    color: red;
+}
+
 .experience p, .education p {
     /*margin-bottom: 20px;*/
     font-size: 1em; /* Equivalente a h5 en tamaño */
