@@ -1,0 +1,73 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b3afaf;
+}
+.container {
+    width: 80%;
+    max-width: 1200px;
+    background: white;
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    border-radius: 10px;
+}
+.sidebar {
+    width: 35%;
+    background: #5386b9;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    text-decoration: underline;
+    color: white;
+}
+
+ul {
+    padding: 0px;
+    padding-left: 20px;
+}
+
+.skills ul li {
+    margin: 10px 0px 10px 0px;
+}
+
+.languages ul li {
+    margin: 10px 0px 10px 0px;
+}
+
+.main {
+    width: 65%;
+    padding: 10px;
+}
+
+h4 {
+    margin: 10px 0px 10px 0px;
+}
+
+h2 {
+    color: #2C3E50;
+    text-decoration: underline;
+    padding-left: 10px;
+}
+.contact-info, .skills, .languages {
+    margin-top: 50px;
+    color: white;
+}
+.experience p, .education p {
+    /*margin-bottom: 20px;*/
+    font-size: 1em; /* Equivalente a h5 en tamaño */
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.description p {
+    line-height: 1.5;
+}
